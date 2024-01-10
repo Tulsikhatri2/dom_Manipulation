@@ -1,0 +1,45 @@
+PROJECT NAME: Employee Management(Form Validation)
+
+Create Dev Environment-
+Languages Used: HTML, CSS, Bootstrap, Java Script, jQuery
+Tools: VS Code, Live Server, Chrome/Mozila
+
+User Requirements:
+1. Pop Up on submit.
+2. Can not enter duplicate email.
+3. All fields are mandatory.
+4. Show data at the right side of page with delete button.
+5. On click on delete button, a pop up will appear as a boolean (YES / NO).
+
+PHASE 1 - UI Design:
+1. Create work space.
+2. Create "index.html" file.
+3. Bootstrat boiler plate.
+4. Verify bootstrap.
+5. Create Grids.
+6. Design form.
+7. Design table header.
+
+PHASE 2 - Functionality:
+1. Console the form data.
+2. Convert form data into a JS Object.
+3. Create empty JS Array.
+4. Push the object into JS Array.
+5. Iterate Array.
+6. Create HTML String.
+7. Inject into DOM.
+8. Click on Delete Button.
+9. Render the table.
+10.JSON STRUCTURE:
+   {
+    Fnanme:"______",
+    Lname:"______",
+    Email:"______",
+    password:"______"
+   };
+
+PHASE 3 - Validation:
+1. All fields are mandatory.
+2. Duplicate Email ID.
+3. Encryption.
+4. Email Format.

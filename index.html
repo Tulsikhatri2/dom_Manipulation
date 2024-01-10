@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body class="bg-light container-fluid">
+    <div class="row">
+        <div class="col-4" style="padding-top: 200px;">
+            <h2 class="text-center" style="color:#008080"><u>ENTER EMPLOYEE DATA</u></h1><br/><br/>
+            First Name<input type="text" class="form-control" placeholder="First Name" id="fName"><br>
+            Last Name<input type="text" class="form-control" placeholder="Last Name" id="lName"><br>
+            Email<input type="text" class="form-control" placeholder="Email" id="eml"><br>
+            Password<input type="password" class="form-control" placeholder="Password" id="pwd"><br>
+            <button class="form-control btn-success" id="formSubmit">SUBMIT</button>
+            
+        </div>
+        <div class="col-8">
+            <h1 class="text-center" style="margin-top: 150px;color:#008080"><u>EMPLOYEE DESCRIPTION</u></h1><br/>
+            <center><table border="2px">
+                <tr class="bg-white">
+                    <th class="text-success" style="padding:20px">FIRST NAME</th>
+                    <th class="text-success" style="padding:20px">LAST NAME</th>
+                    <th class="text-success" style="padding:20px">EMAIL</th>
+                    <th class="text-success" style="padding:20px">PASSWORD</th>
+                    <th class="text-success" style="padding:20px"><i class="fa fa-trash-o" style="font-size:24px"></i></th>
+                </tr>
+            <tbody id="empData" style="padding:20px"></tbody>
+            </table></center>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
